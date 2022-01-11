@@ -1,0 +1,82 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+/* When set to flex column
+• Align items to horizontally align 
+• Justify content to vertically align 
+
+When set to flex row
+• Align items to vertically align 
+• Justify content to horizontally align  */
+
+/* 
+Show
+• flex row and column
+• flex wrap
+• flex-shrink: 0 ; to prevent shrinking
+• flex-grow:1; to grow with extra space
+• flex-grow: 2 to distribute twice as much extra 
+• to make exactly proportionate, use flex-basis: 0;
+space */
+/* 
+End with flexbox inside of a flexbox */
+
+h1{
+    background-color: white;
+    font-size: 48px;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border: solid 4px red;
+}
+
+.box1{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border: 3px solid #c23939;
+    background-color: blue;
+}
+
+.box2{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border: 3px solid #c23939;
+    background-color: rgb(21, 255, 0);
+
+}
+
+.box3{
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border: 3px solid #c23939;
+    background-color: rgb(255, 238, 0);
+
+}
+
+p{
+    background-color: transparent;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+.white{
+    color: white;
+    text-align: left;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
